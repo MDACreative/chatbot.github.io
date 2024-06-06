@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <h4>ChatBotApk</h4>
+      </div>
+      <ul>
+        <li><a href="https://github.com/MDACreative">Github</a></li>
+        <li><a href="mailto:mdacreative21@gmail.com">Email</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="box">
+      <div style="text-align: center" class="top">
+        <h1>Kirim Pesan!</h1>
+      </div>
+      <div class="mid">
+        <div class="chat">
+          <h2>Jawaban Chat</h2>
+          <p id="chatLog">Ayo Ngobrol</p>
+        </div>
+      </div>
+      <div class="input">
+        <input
+          type="text"
+          id="userBox"
+          onkeydown="if(event.keyCode == 13){ talk() }"
+          placeholder="Ketikan Sesuatu"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
