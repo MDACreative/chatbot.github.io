@@ -12,9 +12,21 @@ body {
   position: relative;
   background-color: black;
   overflow-x: hidden;
+  /* background-image: url(bg1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 /*NAVBAR*/
+
+.brand {
+  color: #f0f0f0;
+}
+
+.brand span {
+  color: rgb(0, 183, 255);
+}
 
 nav {
   display: flex;
@@ -38,14 +50,13 @@ nav ul {
 nav ul li a {
   color: #f0f0f0;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 1rem;
   transition: 0.5s;
 }
 
 nav ul li a:hover {
   color: black;
   border-radius: 30px;
-  padding: 8px 15px;
   background-color: #f0f0f0;
 }
 
@@ -126,7 +137,7 @@ nav ul li a:hover {
   }
 
   nav ul {
-    display: block;
+    width: 20%;
   }
 
   /* BOX CONTENT */
