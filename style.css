@@ -126,7 +126,7 @@ nav ul li a:hover {
   }
 
   nav ul {
-    width: 20%;
+    display: none;
   }
 
   /* BOX CONTENT */
